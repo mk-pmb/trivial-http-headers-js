@@ -1,0 +1,36 @@
+{ "name": "trivial-http-headers",
+  "version": "0.1.0",
+  "description": "Absolving you from responsibility for choosing a bad HTTP header value that you thought wouldn't really matter anyway – until it does.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/trivial-http-headers-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/trivial-http-headers-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/trivial-http-headers-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.6",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^17.10.2",
+    "eslint-pretty-pmb": "^1.0.5",
+    "nodemjs": "^0.1.15",
+    "p-fatal": "^0.1.5",
+    "usnam-pmb": "^0.2.5"
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
