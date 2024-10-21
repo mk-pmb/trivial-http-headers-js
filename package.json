@@ -1,5 +1,5 @@
 { "name": "trivial-http-headers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Absolving you from responsibility for choosing a bad HTTP header value that you thought wouldn't really matter anyway – until it does.",
   "keywords": [],
 
